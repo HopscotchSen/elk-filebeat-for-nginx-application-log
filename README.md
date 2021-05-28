@@ -20,5 +20,32 @@ Filebeat collects the following log files:
 2. Application:
   - appplication.log contains log level DEBUG, INFO, ERROR
   - error.log only contains log level ERROR
-  
 
+# Logstash
+Convert unstructured logs into structured log files.
+
+# Application
+  * Use spring boot default log format(Unstructured log)
+  * Use JSON format application log(Structured log)
+
+## Steps to run the application
+
+
+1. Start the elk stack, navigate to the elk-configs folder
+```
+./filebeat -e -c filebeat.yml -d "publish"
+```
+2. Start the logstash
+```
+./logstash -f ../config/logstash.conf
+```
+3. Start the kibana
+```
+./kibana --allow-root
+```
+4. Start the logging application
+```
+mvn spring-boot:run 
+```
+5. Login to kibana at http://localhost:5601
+6. Import indexes and other ELK config using elk-configs/elkSavedObjects.json

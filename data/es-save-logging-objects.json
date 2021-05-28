@@ -1,0 +1,215 @@
+[
+  {
+    "_id": "wU4csnkBpfpA3dC722IK",
+    "_index": "logging-service-2021.05.28",
+    "_score": 1,
+    "_source": {
+      "@timestamp": "2021-05-28T08:35:04.671Z",
+      "@version": "1",
+      "agent": {
+        "ephemeral_id": "a06a2ddf-58a7-4006-a82b-88619c37b303",
+        "hostname": "master01",
+        "id": "e307371a-9a18-4947-805b-8818e9d90455",
+        "type": "filebeat",
+        "version": "7.7.0"
+      },
+      "container": {
+        "id": "logs"
+      },
+      "ecs": {
+        "version": "1.5.0"
+      },
+      "fields": {
+        "application": "logging-service",
+        "project": "Panda-framework"
+      },
+      "host": {
+        "architecture": "x86_64",
+        "containerized": false,
+        "hostname": "master01",
+        "id": "35255bfabdab48058d699628529e14d1",
+        "ip": [
+          "192.168.2.208",
+          "172.17.0.1",
+          "172.18.0.1",
+          "10.244.241.64"
+        ],
+        "mac": [
+          "30:9c:23:05:b2:6f",
+          "02:42:d5:c6:25:18",
+          "02:42:e8:52:5f:46",
+          "42:cc:ce:34:33:0a",
+          "8a:d1:66:d3:ad:41",
+          "be:74:3b:0a:ec:e7",
+          "c6:39:91:4d:75:34",
+          "ca:28:99:75:6a:1d"
+        ],
+        "name": "master01",
+        "os": {
+          "codename": "Core",
+          "family": "redhat",
+          "kernel": "3.10.0-1127.10.1.el7.x86_64",
+          "name": "CentOS Linux",
+          "platform": "centos",
+          "version": "7 (Core)"
+        }
+      },
+      "input": {
+        "type": "log"
+      },
+      "log": {
+        "file": {
+          "path": "/web/services/qh_information/logging-service/logs/monitor-application-logs-collect/monitor-application.log"
+        },
+        "offset": 335476
+      },
+      "message": "{\"@timestamp\":\"2021-05-28T16:34:54.853+08:00\",\"@version\":\"1\",\"message\":\"doStuff needed to warn - nathan_1433369075\",\"logger_name\":\"com.panda.logs.controllers.LoggingController\",\"thread_name\":\"http-nio-8999-exec-4\",\"level\":\"WARN\",\"level_value\":30000,\"APP\":\"monitor-application-logs-collect\",\"appname\":\"cloudnetwork\",\"caller_class_name\":\"com.panda.logs.controllers.LoggingController\",\"caller_method_name\":\"get\",\"caller_file_name\":\"LoggingController.java\",\"caller_line_number\":32}",
+      "tags": [
+        "beats_input_codec_plain_applied"
+      ]
+    },
+    "_type": "_doc"
+  },
+  {
+    "_id": "zU4csnkBpfpA3dC73WI-",
+    "_index": "logging-service-2021.05.28",
+    "_score": 1,
+    "_source": {
+      "@timestamp": "2021-05-28T08:35:04.671Z",
+      "@version": "1",
+      "agent": {
+        "ephemeral_id": "a06a2ddf-58a7-4006-a82b-88619c37b303",
+        "hostname": "master01",
+        "id": "e307371a-9a18-4947-805b-8818e9d90455",
+        "type": "filebeat",
+        "version": "7.7.0"
+      },
+      "container": {
+        "id": "logs"
+      },
+      "ecs": {
+        "version": "1.5.0"
+      },
+      "fields": {
+        "application": "logging-service",
+        "project": "Panda-framework"
+      },
+      "host": {
+        "architecture": "x86_64",
+        "containerized": false,
+        "hostname": "master01",
+        "id": "35255bfabdab48058d699628529e14d1",
+        "ip": [
+          "192.168.2.208",
+          "172.17.0.1",
+          "172.18.0.1",
+          "10.244.241.64"
+        ],
+        "mac": [
+          "30:9c:23:05:b2:6f",
+          "02:42:d5:c6:25:18",
+          "02:42:e8:52:5f:46",
+          "42:cc:ce:34:33:0a",
+          "8a:d1:66:d3:ad:41",
+          "be:74:3b:0a:ec:e7",
+          "c6:39:91:4d:75:34",
+          "ca:28:99:75:6a:1d"
+        ],
+        "name": "master01",
+        "os": {
+          "codename": "Core",
+          "family": "redhat",
+          "kernel": "3.10.0-1127.10.1.el7.x86_64",
+          "name": "CentOS Linux",
+          "platform": "centos",
+          "version": "7 (Core)"
+        }
+      },
+      "input": {
+        "type": "log"
+      },
+      "log": {
+        "file": {
+          "path": "/web/services/qh_information/logging-service/logs/monitor-application-logs-collect/monitor-application.log"
+        },
+        "offset": 335002
+      },
+      "message": "{\"@timestamp\":\"2021-05-28T16:34:54.816+08:00\",\"@version\":\"1\",\"message\":\"doStuff took input - nathan_1433369075\",\"logger_name\":\"com.panda.logs.controllers.LoggingController\",\"thread_name\":\"http-nio-8999-exec-4\",\"level\":\"INFO\",\"level_value\":20000,\"APP\":\"monitor-application-logs-collect\",\"appname\":\"cloudnetwork\",\"caller_class_name\":\"com.panda.logs.controllers.LoggingController\",\"caller_method_name\":\"get\",\"caller_file_name\":\"LoggingController.java\",\"caller_line_number\":31}",
+      "tags": [
+        "beats_input_codec_plain_applied"
+      ]
+    },
+    "_type": "_doc"
+  },
+  {
+    "_id": "w04csnkBpfpA3dC722Ie",
+    "_index": "logging-service-2021.05.28",
+    "_score": 1,
+    "_source": {
+      "@timestamp": "2021-05-28T08:35:04.671Z",
+      "@version": "1",
+      "agent": {
+        "ephemeral_id": "a06a2ddf-58a7-4006-a82b-88619c37b303",
+        "hostname": "master01",
+        "id": "e307371a-9a18-4947-805b-8818e9d90455",
+        "type": "filebeat",
+        "version": "7.7.0"
+      },
+      "container": {
+        "id": "logs"
+      },
+      "ecs": {
+        "version": "1.5.0"
+      },
+      "fields": {
+        "application": "logging-service",
+        "project": "Panda-framework"
+      },
+      "host": {
+        "architecture": "x86_64",
+        "containerized": false,
+        "hostname": "master01",
+        "id": "35255bfabdab48058d699628529e14d1",
+        "ip": [
+          "192.168.2.208",
+          "172.17.0.1",
+          "172.18.0.1",
+          "10.244.241.64"
+        ],
+        "mac": [
+          "30:9c:23:05:b2:6f",
+          "02:42:d5:c6:25:18",
+          "02:42:e8:52:5f:46",
+          "42:cc:ce:34:33:0a",
+          "8a:d1:66:d3:ad:41",
+          "be:74:3b:0a:ec:e7",
+          "c6:39:91:4d:75:34",
+          "ca:28:99:75:6a:1d"
+        ],
+        "name": "master01",
+        "os": {
+          "codename": "Core",
+          "family": "redhat",
+          "kernel": "3.10.0-1127.10.1.el7.x86_64",
+          "name": "CentOS Linux",
+          "platform": "centos",
+          "version": "7 (Core)"
+        }
+      },
+      "input": {
+        "type": "log"
+      },
+      "log": {
+        "file": {
+          "path": "/web/services/qh_information/logging-service/logs/monitor-application-logs-collect/monitor-application.log"
+        },
+        "offset": 336450
+      },
+      "message": "{\"@timestamp\":\"2021-05-28T16:34:56.942+08:00\",\"@version\":\"1\",\"message\":\"The number 10 mod 10 throw error.\",\"logger_name\":\"com.panda.logs.controllers.LoggingController\",\"thread_name\":\"http-nio-8999-exec-5\",\"level\":\"ERROR\",\"level_value\":40000,\"stack_trace\":\"java.lang.ArithmeticException: / by zero\\n\\tat com.panda.logs.controllers.LoggingController.error(LoggingController.java:41)\\n\\tat sun.reflect.GeneratedMethodAccessor28.invoke(Unknown Source)\\n\\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\\n\\tat java.lang.reflect.Method.invoke(Method.java:498)\\n\\tat org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)\\n\\tat org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)\\n\\tat org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)\\n\\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)\\n\\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)\\n\\tat org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)\\n\\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1063)\\n\\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)\\n\\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)\\n\\tat org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)\\n\\tat javax.servlet.http.HttpServlet.service(HttpServlet.java:626)\\n\\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)\\n\\tat javax.servlet.http.HttpServlet.service(HttpServlet.java:733)\\n\\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)\\n\\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)\\n\\tat org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)\\n\\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)\\n\\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)\\n\\tat org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)\\n\\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)\\n\\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)\\n\\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)\\n\\tat org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)\\n\\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)\\n\\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)\\n\\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)\\n\\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)\\n\\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)\\n\\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)\\n\\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)\\n\\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)\\n\\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)\\n\\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)\\n\\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)\\n\\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)\\n\\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)\\n\\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)\\n\\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)\\n\\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)\\n\\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)\\n\\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)\\n\\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)\\n\\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\\n\\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\\n\\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\\n\\tat java.lang.Thread.run(Thread.java:748)\\n\",\"APP\":\"monitor-application-logs-collect\",\"appname\":\"cloudnetwork\",\"caller_class_name\":\"com.panda.logs.controllers.LoggingController\",\"caller_method_name\":\"error\",\"caller_file_name\":\"LoggingController.java\",\"caller_line_number\":43}",
+      "tags": [
+        "beats_input_codec_plain_applied"
+      ]
+    },
+    "_type": "_doc"
+  }
+]
